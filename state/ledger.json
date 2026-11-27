@@ -7,13 +7,17 @@
   "execution_status": "active",
   "current_leaf": "G3-B1",
   "last_completed_leaf": null,
-  "current_candidate_sha": "9f6152310f0d3a623df3c9557e54b1da668f6236",
+  "current_candidate_sha": "a8a7d92b40232d266f1a971a5d9464fa08a99d56",
   "next_assignment": {
-    "role": "implementation worker",
-    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3-hosted-editor-retry-20261127, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue. Record the real UTC engineering, Git, test and CI interval in the permitted evidence. Use existing approved tooling only and keep any exact permission stop or failed check at its actual checkpoint. After verified CI and separate eligible H, stop before claim or native sender and report your exact H and binding to the qualification manager. In the separate reviewer commission use the exact authorised canonical Project landing from this bootstrap only after observing or verifying that route in this Project."
+    "role": "independent reviewer",
+    "task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-B1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
+    "delivery": {
+      "contract": "saved-turn-only",
+      "source_route": "https://chatgpt.com/g/g-p-6b0932969f84819191d7b6433665d486/project"
+    }
   },
   "review_verdict": null,
-  "ci_run_id": null,
+  "ci_run_id": 45961801571,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "8c4a11205c3a3b6df13979a274841e7d8f3391c1",
   "bootstrap": {
@@ -32,9 +36,52 @@
     "required_jobs": [
       "Test normalizer"
     ],
-    "candidate_result": null
+    "candidate_result": {
+      "conclusion": "success",
+      "candidate_sha": "a8a7d92b40232d266f1a971a5d9464fa08a99d56",
+      "tested_sha": "a8a7d92b40232d266f1a971a5d9464fa08a99d56",
+      "tested_tree": "bc640cd356aaf2568b518199ec8593f31bcbfd0f",
+      "workflow": ".github/workflows/ci.yml",
+      "workflow_name": "Fixture CI",
+      "event": "push",
+      "ref": "refs/heads/trial/gate-3-hosted-editor-retry-20261127",
+      "run_id": 45961801571,
+      "run_attempt": 1,
+      "run_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-b/actions/runs/45961801571",
+      "run_started_at": "2026-11-27T07:55:21Z",
+      "run_completed_at": "2026-11-27T07:55:28Z",
+      "job_id": 140381110554,
+      "job_name": "Test normalizer",
+      "job_conclusion": "success",
+      "job_started_at": "2026-11-27T07:55:23Z",
+      "job_completed_at": "2026-11-27T07:55:28Z",
+      "checkout_step_conclusion": "success",
+      "verify_checkout_and_test_step_conclusion": "success",
+      "tested_sha_log_utc": "2026-11-27T07:55:25.9681215Z",
+      "tested_tree_log_utc": "2026-11-27T07:55:25.9682231Z",
+      "test_command": "python3 -B -m unittest discover -s tests -v",
+      "tests_passed": 6,
+      "tests_failed": 0,
+      "test_result_log_utc": "2026-11-27T07:55:26.0497833Z",
+      "job_log_sha256": "191fc2a9b1b034abc5c3d96adf1bdce60077729494176bb2cf9c951d3cec52e0",
+      "job_log_bytes": 13973,
+      "verification_started_utc": "2026-11-27T07:58:52.400181+00:00",
+      "verification_completed_utc": "2026-11-27T07:59:20.181834+00:00",
+      "engineering_git": {
+        "red_start_utc": "2026-11-27T07:54:14.247486+00:00",
+        "red_end_utc": "2026-11-27T07:54:14.307303+00:00",
+        "green_start_utc": "2026-11-27T07:54:24.017739+00:00",
+        "green_end_utc": "2026-11-27T07:54:24.071954+00:00",
+        "staging_start_utc": "2026-11-27T07:54:32.065537+00:00",
+        "commit_start_utc": "2026-11-27T07:55:08.556830+00:00",
+        "commit_end_utc": "2026-11-27T07:55:08.573762+00:00",
+        "push_start_utc": "2026-11-27T07:55:16.500608+00:00",
+        "push_verified_utc": "2026-11-27T07:55:20.185150+00:00"
+      },
+      "access_evidence": "Initial Actions discovery blocked by client before execution; owner-directed single unchanged retry succeeded (HTTP 200). Exact original attempt jobs HTTP 200; original job log API HTTP 302, then one TLS-verified credential-free GET HTTP 200 without further redirects. No rerun."
+    }
   },
-  "note": "Owner-authorised direct Start for lane B of the fresh Gate 3 hosted editor retry cohort. Independent review follows a separate eligible handoff.",
+  "note": "Verified candidate-specific CI for G3-B1. Separate independent reviewer eligible under saved-turn-only contract; implementation worker must stop at H before claim or native sender.",
   "project_id": "g-p-6b0932969f84819191d7b6433665d486",
   "project_name": "PCA Gate 3 Retry Lane B 20261127"
 }
