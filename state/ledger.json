@@ -4,19 +4,12 @@
   "repository": "JayDEmily/automatic-timer-trial-v1-b",
   "branch": "trial/gate-3-hosted-editor-proof-20261127",
   "plan": "plans/active-execplan.md",
-  "execution_status": "active",
-  "current_leaf": "G3-SAVED-TURN",
-  "last_completed_leaf": null,
+  "execution_status": "terminal",
+  "current_leaf": null,
+  "last_completed_leaf": "G3-SAVED-TURN",
   "current_candidate_sha": "59f059711ba11c01aa4a37013225dfa324d225e2",
-  "next_assignment": {
-    "role": "independent reviewer",
-    "task": "Validate the original hosted saved-turn completion and current H in a private Ubuntu checkout before review. Independently verify exact C and tree, the candidate diff, the fixture requirement, the recorded CI identity and job result, and run the complete fixture tests. Publish only reviews/SAVED-TURN.md and the permitted terminal state/ledger.json transition using the pinned expected-tip publish command. Record C, tree, H and a scoped PASS or HOLD. A PASS sets execution_status terminal, current_leaf and next_assignment null, preserves C and records the completed leaf and verdict. A deficiency holds succession. Stop at the verdict or an unresolved hold; this assignment has no successor.",
-    "delivery": {
-      "contract": "saved-turn-only",
-      "source_route": "https://chatgpt.com/g/g-p-6b09246572dc8191ba9752c921d6721a/project"
-    }
-  },
-  "review_verdict": null,
+  "next_assignment": null,
+  "review_verdict": "PASS",
   "ci_run_id": 45952855813,
   "qualified_method_sha": "8c4a11205c3a3b6df13979a274841e7d8f3391c1",
   "note": "Exact C-specific CI passed. One separate hosted saved-turn independent review is eligible.",
