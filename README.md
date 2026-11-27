@@ -1,3 +1,3 @@
-# PCA Gate 3 B
+# Disposable saved-turn proof fixture
 
-Independent public synthetic text-normalizer fixture for Gate 3. See plans/active-execplan.md. Initialisation does not release a live assignment.
+This synthetic string-normalization fixture supports one hosted saved-turn qualification. Follow the committed plan, current ledger and the exact work ref named there.

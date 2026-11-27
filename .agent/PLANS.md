@@ -1,2 +1,3 @@
-# Plan convention
-The accepted plan is plans/active-execplan.md. Keep the bounded requirement, allowed changes, current candidate, actual test and review evidence, and next eligible role explicit. State is in state/ledger.json; do not use this format as a new approval gate.
+# Execution plan convention
+
+Use plans/active-execplan.md for the bounded assignment and state/ledger.json for eligibility. Keep C, the review commission and the independent verdict separate. Record exact CI and delivery evidence.
