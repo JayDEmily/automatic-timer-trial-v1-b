@@ -7,13 +7,17 @@
   "execution_status": "active",
   "current_leaf": "G3-B1",
   "last_completed_leaf": null,
-  "current_candidate_sha": "89fa27974ca93d4e45493d79f499725e06a6995e",
+  "current_candidate_sha": "19e1dccec0370392e36d670a1757f342cb5d6f93",
   "next_assignment": {
-    "role": "implementation worker",
-    "task": "Implement the bounded normalization requirement in plans/active-execplan.md. Observe the new regression fail before changing source, then make the minimum source change and run the complete fixture unit suite. Publish the exact engineering candidate C to trial/gate-3-recovery-20261127-picker, verify its required Actions push run and actual tested SHA/tree, then publish a separate eligible independent-review ledger handoff H. Never review your own work. Follow the plan and preserve the designated pre-dispatch stop if this lane is chosen for Continue. This lane is not designated for Continue. After verified CI and the separate eligible H, stop before claim or native sender invocation and report the current H to the qualification manager."
+    "role": "independent reviewer",
+    "task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-B1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
+    "delivery": {
+      "contract": "saved-turn-only",
+      "source_route": "https://chatgpt.com/g/g-p-6b08fc695ce081919d8863575e380b60/project"
+    }
   },
   "review_verdict": null,
-  "ci_run_id": null,
+  "ci_run_id": 45940868532,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "b1232ccd73a2944fcc89bf0cc148d8785cd500ce",
   "bootstrap": {
@@ -32,9 +36,51 @@
     "required_jobs": [
       "Test normalizer"
     ],
-    "candidate_result": null
+    "candidate_result": {
+      "status": "PASS",
+      "candidate_sha": "19e1dccec0370392e36d670a1757f342cb5d6f93",
+      "candidate_tree": "f0c47d5aa867a6dc0ecfcc8cc2f53e0b0cc7905c",
+      "run_id": 45940868532,
+      "run_attempt": 1,
+      "workflow_id": 431328569,
+      "workflow_name": "Fixture CI",
+      "workflow": ".github/workflows/ci.yml",
+      "event": "push",
+      "ref": "refs/heads/trial/gate-3-recovery-20261127-picker",
+      "run_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-b/actions/runs/45940868532",
+      "run_created_at_utc": "2026-11-27T04:35:47Z",
+      "run_completed_at_utc": "2026-11-27T04:35:54Z",
+      "run_conclusion": "success",
+      "jobs": [
+        {
+          "id": 140314607008,
+          "name": "Test normalizer",
+          "conclusion": "success",
+          "run_attempt": 1,
+          "job_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-b/actions/runs/45940868532/job/140314607008",
+          "tested_sha": "19e1dccec0370392e36d670a1757f342cb5d6f93",
+          "tested_tree": "f0c47d5aa867a6dc0ecfcc8cc2f53e0b0cc7905c",
+          "tests_run": 7,
+          "tests_passed": 7,
+          "test_result": "OK",
+          "tested_at_utc": "2026-11-27T04:35:51Z",
+          "completed_at_utc": "2026-11-27T04:35:53Z",
+          "original_log_bytes": 14166,
+          "original_log_sha256": "58295a970f1500d6bb19ce61561aacbd21dbda112a6d782ada54ae29c749a71a",
+          "log_api_status": 302,
+          "log_download_status": 200
+        }
+      ],
+      "metadata_api_request_ids": [
+        "FE2E:6395:BDB191:124DE60:6B090D00",
+        "FE30:292922:BBF364:123516C:6B090D01"
+      ],
+      "log_api_request_id": "FE28:2A8BBD:BDA9A2:124E29A:6B090D16",
+      "log_download_request_id": "d04138cb-b01e-0068-312b-7e8e04000000",
+      "evidence_verified_at_utc": "2026-11-27T04:55:23+00:00"
+    }
   },
-  "note": "Owner-authorised direct Start for the fresh Gate 3 picker qualification. Independent review follows a separate eligible handoff.",
+  "note": "G3-B1 implementation candidate published separately and exact-C push CI verified. Independent review eligible; qualification stop before any claim or native sender invocation.",
   "project_name": "PCA Gate 3 Recovery B",
   "project_id": "g-p-6b08fc695ce081919d8863575e380b60"
 }
