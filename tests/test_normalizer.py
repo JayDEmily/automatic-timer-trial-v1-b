@@ -11,3 +11,7 @@ class NormalizeTests(unittest.TestCase):
 
     def test_internal_whitespace(self):
         self.assertEqual(normalize(["a b", "C  d"]), ["a b", "C  d"])
+
+    def test_trim_and_omit_blank_entries(self):
+        self.assertEqual(normalize(["  North ", "", "\t ", " west", "  North ", " C  d "]),
+                         ["North", "west", "North", "C  d"])
