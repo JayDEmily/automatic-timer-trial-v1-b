@@ -1,2 +1,2 @@
 def normalize(lines):
-    return list(lines)
+    return [line for line in map(str.strip, lines) if line]
