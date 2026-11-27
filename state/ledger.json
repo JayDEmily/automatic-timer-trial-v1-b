@@ -4,13 +4,47 @@
   "repository": "JayDEmily/automatic-timer-trial-v1-b",
   "branch": "trial/gate-3-saved-turn-smoke-20261127",
   "plan": "plans/active-execplan.md",
-  "execution_status": "paused",
+  "execution_status": "active",
   "current_leaf": "G3-SAVED-TURN",
   "last_completed_leaf": null,
-  "current_candidate_sha": null,
-  "next_assignment": null,
+  "current_candidate_sha": "491ad50e60cd67385b87fd56a85353cdb7e6a91b",
+  "next_assignment": {
+    "role": "independent reviewer",
+    "task": "Validate the original hosted saved-turn completion and current H in a private Ubuntu checkout before review. Independently verify exact C and tree, the candidate diff, the fixture requirement, the recorded CI identity and job result, and run the complete fixture tests. Publish only reviews/SAVED-TURN.md and the permitted terminal state/ledger.json transition using the pinned expected-tip publish command. Record C, tree, H and a scoped PASS or HOLD. A PASS sets execution_status terminal, current_leaf and next_assignment null, preserves C and records the completed leaf and verdict. A deficiency holds succession. Stop at the verdict or an unresolved hold; this assignment has no successor.",
+    "delivery": {
+      "contract": "saved-turn-only",
+      "source_route": "https://chatgpt.com/g/g-p-6b0919b343208191a38a028e8b38ec20/project"
+    }
+  },
   "review_verdict": null,
-  "ci_run_id": null,
+  "ci_run_id": 45948185188,
   "qualified_method_sha": "c51f498600993e91d0f0827c772e7f2130a5e31b",
-  "note": "Separate single disposable trial. Reviewer eligibility awaits exact candidate CI and its own handoff."
+  "note": "Exact C-specific CI passed. One separate hosted saved-turn independent review is eligible.",
+  "project_id": "g-p-6b0919b343208191a38a028e8b38ec20",
+  "project_name": "PCA Gate 3 Saved Turn Proof",
+  "ci": {
+    "provider": "github-actions",
+    "workflow": ".github/workflows/ci.yml",
+    "workflow_id": 431328569,
+    "event": "push",
+    "ref": "refs/heads/trial/gate-3-saved-turn-smoke-20261127",
+    "run_id": 45948185188,
+    "run_attempt": 1,
+    "run_url": "https://github.com/JayDEmily/automatic-timer-trial-v1-b/actions/runs/45948185188",
+    "candidate_sha": "491ad50e60cd67385b87fd56a85353cdb7e6a91b",
+    "candidate_tree": "4f9ea36a94edffe429e2f44235aafec6fd19845a",
+    "status": "PASS",
+    "required_job": {
+      "id": 140337618329,
+      "name": "Test normalizer",
+      "url": "https://github.com/JayDEmily/automatic-timer-trial-v1-b/actions/runs/45948185188/job/140337618329",
+      "conclusion": "success",
+      "tested_sha": "491ad50e60cd67385b87fd56a85353cdb7e6a91b",
+      "tested_tree": "4f9ea36a94edffe429e2f44235aafec6fd19845a",
+      "tests_passed": 4,
+      "original_log_sha256": "3f7f0a16498245e86ef50ceaa93bde30911421ed762dbeba0a4c823524aaf967",
+      "original_log_bytes": 13628
+    }
+  },
+  "delivery_contract": "saved-turn-only"
 }
