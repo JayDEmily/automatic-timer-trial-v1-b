@@ -4,19 +4,12 @@
   "repository": "JayDEmily/automatic-timer-trial-v1-b",
   "branch": "trial/gate-3-hosted-editor-retry-20261127",
   "plan": "plans/active-execplan.md",
-  "execution_status": "active",
-  "current_leaf": "G3-B1",
-  "last_completed_leaf": null,
+  "execution_status": "terminal",
+  "current_leaf": null,
+  "last_completed_leaf": "G3-B1",
   "current_candidate_sha": "a8a7d92b40232d266f1a971a5d9464fa08a99d56",
-  "next_assignment": {
-    "role": "independent reviewer",
-    "task": "Consume the exact original hosted saved-turn handoff with the pinned method before work. Independently assess the exact C/tree, required CI run/attempt, actual tested checkout, fixture requirement, permitted diff and test results. Publish only reviews/G3-B1.md and the permitted terminal ledger transition. A FAIL or unresolved condition holds succession; no self-review, other branch or new successor.",
-    "delivery": {
-      "contract": "saved-turn-only",
-      "source_route": "https://chatgpt.com/g/g-p-6b0932969f84819191d7b6433665d486/project"
-    }
-  },
-  "review_verdict": null,
+  "next_assignment": null,
+  "review_verdict": "PASS",
   "ci_run_id": 45961801571,
   "delivery_contract": "saved-turn-only",
   "qualified_method_sha": "8c4a11205c3a3b6df13979a274841e7d8f3391c1",
@@ -81,7 +74,7 @@
       "access_evidence": "Initial Actions discovery blocked by client before execution; owner-directed single unchanged retry succeeded (HTTP 200). Exact original attempt jobs HTTP 200; original job log API HTTP 302, then one TLS-verified credential-free GET HTTP 200 without further redirects. No rerun."
     }
   },
-  "note": "Verified candidate-specific CI for G3-B1. Separate independent reviewer eligible under saved-turn-only contract; implementation worker must stop at H before claim or native sender.",
+  "note": "Independent PASS for exact G3-B1 candidate/tree and original H; terminal, no successor. Verdict recorded in reviews/G3-B1.md.",
   "project_id": "g-p-6b0932969f84819191d7b6433665d486",
   "project_name": "PCA Gate 3 Retry Lane B 20261127"
 }
